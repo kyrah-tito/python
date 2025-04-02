@@ -9,5 +9,13 @@ list_cut0 = 0
 list_cut1 = 0
 fee = 5
 meal_fee = 7
-print("Choose a activity")
+print("Choose an activity: ")
 print(f'1. {activity_list[0]} ({other_list[0]} hours, {other_list[3]}, {other_list[6]})')
+print(f'2. {activity_list[1]} ({other_list[1]} hours, {other_list[4]}, {other_list[7]})')
+print(f'3. {activity_list[2]} ({other_list[2]} hours, {other_list[5]}, {other_list[8]})')
+ask1 = input("Enter the number of your chosen activity")
+print("Choose a meal option")
+print(f'1. {meal_list[0]} .')
+print(f'2. {meal_list[1]} .')
+print(f'3. {meal_list[2]} .')
+print(f'4. {meal_list[3]} .')
