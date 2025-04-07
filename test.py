@@ -33,3 +33,9 @@ elif ask1 == '2':
     fee = fee + 7
 if ask2 == '4' :
     meal_fee = 0
+
+overall_fee = fee + meal_fee
+
+print(f'{first_name}, age{persons_age}, has chosen {activity_list[list_count]} with {meal_list[ask2]}')
+print("The following activity will include:")
+print(f'{other_list[list_count]} hours of practice,Its {other_list[list_cut0]} and a ')
