@@ -19,3 +19,17 @@ print(f'1. {meal_list[0]} .')
 print(f'2. {meal_list[1]} .')
 print(f'3. {meal_list[2]} .')
 print(f'4. {meal_list[3]} .')
+ask2 = int(input("Enter the number of your meal choice: "))
+if ask1 == '1':
+    list_count = 0
+    list_cut = list_count
+    list_cut0 = list_count + 3
+    list_cut1 = list_cut0 + 3
+elif ask1 == '2':
+    list_count = 1
+    list_cut = list_count
+    list_cut0 = list_count + 3
+    list_cut1 = list_cut0 + 3
+    fee = fee + 7
+if ask2 == '4' :
+    meal_fee = 0
