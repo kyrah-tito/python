@@ -1,8 +1,8 @@
-#this is t6he start of the program
+#this is the start of the program
 print("Hello, welcome")
 first_name = input("Please enter your first name: ")
 persons_age = int(input("Please enter your age: "))
-meal_list = ["Standard","Vegetarian","Dairy_Free","No meal"]
+meal_list = ["Standard","Vegetarian","Dairy-Free","No meal"]
 activity_list = ["Music Jam Session","Science Experiments Lab","Sports Leadership Training"]
 other_list = [2,3,4,"easy","moderate","challenging","$5 fee","$10 fee","$12 fee"]
 #all variable initialised to 0
@@ -24,7 +24,9 @@ print(f'1. {meal_list[0]} .')
 print(f'2. {meal_list[1]} .')
 print(f'3. {meal_list[2]} .')
 print(f'4. {meal_list[3]} .')
+#the user eneter the chosen meal choice
 ask2 = int(input("Enter the number of your meal choice: "))
+#calculating the results
 if ask1 == '1':
     list_count = 0
     list_cut = list_count
@@ -40,13 +42,14 @@ if ask2 == '4' :
     meal_fee = 0
 
 overall_fee = fee + meal_fee
-
-print(f'{first_name}, age{persons_age}, has chosen {activity_list[list_count]}, with {meal_list[ask2]}')
+#printing the results
+print(f'{first_name}, age {persons_age}, has chosen {activity_list[list_count]}, with {meal_list[ask2]}')
 print("The following activity will include:")
 print(f'{other_list[list_count]} hours of practice, Its {other_list[list_cut0]} and a {other_list[list_cut1]}')
 print(f"overall, the cost comes to ${overall_fee}")
+#asking for attendence
 attend = input ("Are you going to be attending (yes or no): ")
 if attend == "yes":
-    print(f"{first_name}) has comfrimed for {activity_list[list_count]}, see you there!")
+    print(f"{first_name} has comfrimed for {activity_list[list_count]}, see you there!")
 elif attend == "no":
     print(f"{first_name} has not comfrimed for {activity_list[list_count]}.")
